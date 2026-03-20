@@ -303,6 +303,13 @@ export default function App() {
   const [projects, setProjects] = useState<Project[]>(projectsData);
   const [visibleCount, setVisibleCount] = useState(8);
   const [activeTab, setActiveTab] = useState<string>(() => {
+    const hash = window.location.hash.replace("#", "");
+    if (hash) {
+      const formatted = hash.charAt(0).toUpperCase() + hash.slice(1).toLowerCase();
+      if (["Home", "About", "Works", "Services", "Contact"].includes(formatted)) {
+        return formatted;
+      }
+    }
     const params = new URLSearchParams(window.location.search);
     const tabParam = params.get("tab");
     if (tabParam) {
@@ -327,28 +334,43 @@ export default function App() {
   }, []);
 
   useEffect(() => {
-    window.history.replaceState({ tab: activeTab }, "", `?tab=${activeTab.toLowerCase()}`);
+    if (!window.location.hash && !window.location.search.includes("tab=")) {
+      window.history.replaceState(null, "", `#${activeTab.toLowerCase()}`);
+    }
+  }, []);
+
+  useEffect(() => {
+    const handleHashChange = () => {
+      const hash = window.location.hash.replace("#", "");
+      if (hash) {
+        const formatted = hash.charAt(0).toUpperCase() + hash.slice(1).toLowerCase();
+        if (["Home", "About", "Works", "Services", "Contact"].includes(formatted)) {
+          setActiveTab(formatted);
+          return;
+        }
+      }
+      
+      const params = new URLSearchParams(window.location.search);
+      const tabParam = params.get("tab");
+      if (tabParam) {
+        const formatted = tabParam.charAt(0).toUpperCase() + tabParam.slice(1).toLowerCase();
+        if (["Home", "About", "Works", "Services", "Contact"].includes(formatted)) {
+          setActiveTab(formatted);
+          return;
+        }
+      }
+      
+      setActiveTab("Home");
+    };
+
+    window.addEventListener("hashchange", handleHashChange);
+    return () => window.removeEventListener("hashchange", handleHashChange);
   }, []);
 
   useEffect(() => {
     const handlePopState = (event: PopStateEvent) => {
       if (selectedProject) {
         setSelectedProject(null);
-      }
-      
-      if (event.state?.tab) {
-        setActiveTab(event.state.tab);
-      } else {
-        const params = new URLSearchParams(window.location.search);
-        const tabParam = params.get("tab");
-        if (tabParam) {
-          const formatted = tabParam.charAt(0).toUpperCase() + tabParam.slice(1).toLowerCase();
-          if (["Home", "About", "Works", "Services", "Contact"].includes(formatted)) {
-            setActiveTab(formatted);
-            return;
-          }
-        }
-        setActiveTab("Home");
       }
     };
 
@@ -359,7 +381,7 @@ export default function App() {
   const handleTabChange = (tab: string) => {
     if (tab === activeTab) return;
     setActiveTab(tab);
-    window.history.pushState({ tab }, "", `?tab=${tab.toLowerCase()}`);
+    window.location.hash = tab.toLowerCase();
   };
 
   const handleOpenProject = (project: Project) => {
