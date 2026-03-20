@@ -320,8 +320,18 @@ export default function App() {
     }
     return "Home";
   });
-  const [activeCategory, setActiveCategory] = useState<string>("ALL");
-  const [selectedProject, setSelectedProject] = useState<Project | null>(null);
+  const [activeCategory, setActiveCategory] = useState<string>(() => {
+    const params = new URLSearchParams(window.location.search);
+    return params.get("category") || "ALL";
+  });
+  const [selectedProject, setSelectedProject] = useState<Project | null>(() => {
+    const params = new URLSearchParams(window.location.search);
+    const projectId = params.get("project");
+    if (projectId) {
+      return projectsData.find(p => p.id === Number(projectId)) || null;
+    }
+    return null;
+  });
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
@@ -368,26 +378,24 @@ export default function App() {
   }, []);
 
   useEffect(() => {
-    const handlePopState = (event: PopStateEvent) => {
-      if (event.state?.modalOpen && event.state?.projectId) {
-        const projectToOpen = projects.find(p => p.id === event.state.projectId);
-        if (projectToOpen) {
-          setSelectedProject(projectToOpen);
-        }
-      } else if (selectedProject) {
+    const handlePopState = () => {
+      const params = new URLSearchParams(window.location.search);
+      
+      const projectId = params.get("project");
+      if (projectId) {
+        const projectToOpen = projects.find(p => p.id === Number(projectId));
+        setSelectedProject(projectToOpen || null);
+      } else {
         setSelectedProject(null);
       }
       
-      if (event.state?.category) {
-        setActiveCategory(event.state.category);
-      } else {
-        setActiveCategory("ALL");
-      }
+      const category = params.get("category");
+      setActiveCategory(category || "ALL");
     };
 
     window.addEventListener("popstate", handlePopState);
     return () => window.removeEventListener("popstate", handlePopState);
-  }, [selectedProject, projects]);
+  }, [projects]);
 
   const handleTabChange = (tab: string) => {
     if (tab === activeTab) return;
@@ -399,18 +407,31 @@ export default function App() {
     if (cat === activeCategory) return;
     setActiveCategory(cat);
     setVisibleCount(8);
-    window.history.pushState({ category: cat }, "", window.location.hash);
+    
+    const newUrl = new URL(window.location.href);
+    if (cat === "ALL") {
+      newUrl.searchParams.delete("category");
+    } else {
+      newUrl.searchParams.set("category", cat);
+    }
+    window.history.pushState({}, "", newUrl.toString());
   };
 
   const handleOpenProject = (project: Project) => {
     setSelectedProject(project);
-    window.history.pushState({ modalOpen: true, projectId: project.id, category: activeCategory }, "");
+    const newUrl = new URL(window.location.href);
+    newUrl.searchParams.set("project", project.id.toString());
+    window.history.pushState({ modalOpen: true }, "", newUrl.toString());
   };
 
   const handleCloseProject = () => {
     setSelectedProject(null);
     if (window.history.state?.modalOpen) {
       window.history.back();
+    } else {
+      const newUrl = new URL(window.location.href);
+      newUrl.searchParams.delete("project");
+      window.history.replaceState({}, "", newUrl.toString());
     }
   };
 
