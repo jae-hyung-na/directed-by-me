@@ -22,7 +22,7 @@ export const projectsData: Project[] = [
     "video_url": "https://www.youtube.com/embed/HUGguG_yr3w",
     "thumbnail_url": "/039_TheSmoke.png",
     "role": "Director, Editor",
-    "credits": "Production | Dongseo University XRT Lab\nDirector | Jaehyeong Na\n\nDirector Of Photography | Mingyu Chae\nCamera Crew | Sichang Kim, Minjae Kim, Suhyeon Heo, Hyogyeong Kim\n\nEditor | Jaehyeong Na\nColor Grading, 2D Clean & Beauty | Jaehyeong Na\n\nEquipment Support | Dongseo Media Center (Busan, South Korea)\n\nⓟ Shigeru Umebayashi performing Yumeji's Theme by First Name Soundtracks., Lantis Company Limited.\nⓒ 2026 Manufactured by Dongseo University XRT Lab. This content was created for non-commercial use.",
+    "credits": "Production | Dongseo University XRT Lab\nDirector | Jaehyeong Na\n\nDirector Of Photography | Mingyu Chae\nCamera Crew | Sichang Kim, Minjae Kim, Suhyeon Heo, Hyogyeong Kim\n\nEditor | Jaehyeong Na\nColor Grading, 2D Clean & Beauty | Jaehyeong Na\n\nEquipment Support | Dongseo Media Center (Busan, Korea)\n\nⓟ Shigeru Umebayashi performing Yumeji's Theme by First Name Soundtracks., Lantis Company Limited.\nⓒ 2026 Manufactured by Dongseo University XRT Lab. This content was created for non-commercial use.",
     "year": "2026",
     "created_at": "2026-03-19 03:49:13"
   },
@@ -61,7 +61,7 @@ export const projectsData: Project[] = [
     "video_url": "https://www.youtube.com/embed/8gvbCFfOrew",
     "thumbnail_url": "/036_GAMFF.png",
     "role": "Director, Production Leader, Camera Operator, Editor, Co-wrote, Mastering Engineer",
-    "credits": "Director, Production Leader | Jaehyeong Na \nCamera Operator | Jaehyeong Na, Sichang Kim, Hyogyeong Kim, Suhyeon Shin\n\nLyrics by ChatGPT, Jaehyeong Na\nComposed by Suno AI\nArranged by Suno AI\nMastered by Jaehyeong Na @ SOUNDCAMP\n\n© 2024 Na Jaehyeong, Kim Sichang, Kim Hyogyung, Shin Suhyun. Manufactured by Dongseo University XRT Lab.",
+    "credits": "Director, Production Leader | Jaehyeong Na \nCamera Operator | Jaehyeong Na, Sichang Kim, Hyogyeong Kim, Suhyeon Shin\n\nLyrics by ChatGPT, Jaehyeong Na\nComposed by Suno AI\nArranged by Suno AI\nMastered by Jaehyeong Na at SOUNDCAMP\n\n© 2024 Na Jaehyeong, Kim Sichang, Kim Hyogyung, Shin Suhyun. Manufactured by Dongseo University XRT Lab.",
     "year": "2024",
     "created_at": "2026-03-19 03:49:13"
   },
@@ -100,7 +100,7 @@ export const projectsData: Project[] = [
     "video_url": "https://www.youtube.com/embed/r6rGO9YU4Ms",
     "thumbnail_url": "/033_westwars.png",
     "role": "Project Management, Content Planning, Motion Capture Engineer, Sound Design & SFX Editor",
-    "credits": "Director | Minje Lee\nProject Management | Minseop Hwang, Jaehyeong Na\nContent Planning | Minje Lee, Sichang Kim, Jaehyeong Na\n\nMotion Capture Studio | Dongseo University 3D Convergence Research Center\nMotion Capture Supervisor | Sichang Kim\nMotion Capture Engineer | Jaehyeong Na, Woohyun Kim\nMotion Capture Actor | Sichang Kim, Minje Lee, Woohyun Kim\n\n2d Vfx | Woohyun Kim\nAdditional Visual Effects | Sichang Kim\n\n3d Supervising & Engineering | Sichang Kim\n3d Animation | Sichang Kim\nMap Producer | Minje Lee\n\nSound Design & SFX Editor | Jaehyeong Na\n\nProduction Support | Dongseo University Linc 3.0 Business Group\n\nⓒ  2023 Minje Lee, Sichang Kim, Jaehyeong Na, Woohyun Kim, Minseop Hwang.",
+    "credits": "Director | Minje Lee\nProject Management | Minseop Hwang, Jaehyeong Na\nContent Planning | Minje Lee, Sichang Kim, Jaehyeong Na\n\nMotion Capture Studio | Dongseo University 3D Convergence Research Center\nMotion Capture Supervisor | Sichang Kim\nMotion Capture Engineer | Jaehyeong Na, Woohyun Kim\nMotion Capture Actor | Sichang Kim, Minje Lee, Woohyun Kim\n\n2D VFX | Woohyun Kim\nAdditional Visual Effects | Sichang Kim\n\n3d Supervising & Engineering | Sichang Kim\n3d Animation | Sichang Kim\nMap Producer | Minje Lee\n\nSound Design & SFX Editor | Jaehyeong Na\n\nProduction Support | Dongseo University Linc 3.0 Business Group\n\nⓒ  2023 Minje Lee, Sichang Kim, Jaehyeong Na, Woohyun Kim, Minseop Hwang.",
     "year": "2023",
     "created_at": "2026-03-19 03:49:13"
   },
@@ -334,7 +334,7 @@ export const projectsData: Project[] = [
     "video_url": "https://www.youtube.com/embed/YT6YG4m5fs0",
     "thumbnail_url": "/015_2030세계박람회.jpg",
     "role": "Producer, Content Planning, Co-Director, B Cam Operator\nAdditional Editor, Color Grading\nCo-wrote, Digital Editing, Mix & Mastering Engineer",
-    "credits": "Producer | Jaehyeong Na\nContent Planning | Mingyu Chae, Jaehyeong Na, Youngjin Ahn, Jieun Lee\nDirector | Mingyu Chae, Jaehyeong Na\n\nDirector Of Photography | Mingyu Chae\nB Cam Operator | Jaehyeong Na \n\nEditor | Youngjin Ahn\nAdditional Editor | Jaehyeong Na, Mingyu Chae\nColor Grading | Jaehyeong Na, Mingyu Chae\n\nStill Photographer | Jieun Lee\n\nEquipment Support | Dongseo Media Center (Busan, Korea), Hanbeom Yeo\nLocation Support | Scotch Egg (Bupyeong Kkangtong Market), Miryang Sundae Dwaeji Gukbap, Wooseong Sikyuk Sikdang\n\nSpecial Thanks To | Heeyoung An, Miyoung Yu, Hanbeom Yeo, Dongwoo Kim\n\nLyrics by Youngjin Ahn\nComposed by WhiteLIT Beatz, Youngjin Ahn, Jaehyeong Na\nArranged by WhiteLIT Beatz, Youngjin Ahn\nProgramming by WhiteLIT Beatz\nBackground Vocals by Youngjin Ahn\nRap Arrangement by Youngjin Ahn\nRecorded by Youngjin Ahn\nDigital Editing by Jaehyeong Na at HYNG’s ROOM\nMixed by Jaehyeong Na at HYNG’s ROOM\nMastered by Jaehyeong Na at HYNG’s ROOM\n\n© 2022 Mingyu Chae, Jaehyeong Na, Youngjin Ahn, Jieun Lee.",
+    "credits": "Producer | Jaehyeong Na\nContent Planning | Mingyu Chae, Jaehyeong Na, Youngjin Ahn, Jieun Lee\nDirector | Mingyu Chae, Jaehyeong Na\n\nDirector Of Photography | Mingyu Chae\nB Cam Operator | Jaehyeong Na \n\nEditor | Youngjin Ahn\nAdditional Editor | Jaehyeong Na, Mingyu Chae\nColor Grading | Jaehyeong Na, Mingyu Chae\n\nStill Photographer | Jieun Lee\n\nEquipment Support | Dongseo Media Center (Busan, Korea), Hanbeom Yeo\nLocation Support | Scotch Egg (Bupyeong Kkangtong Market), Miryang Sundae Dwaeji Gukbap, Wooseong Sikyuk Sikdang\n\nSpecial Thanks To | Heeyoung An, Miyoung Yu, Hanbeom Yeo, Dongwoo Kim\n\nLyrics by Youngjin Ahn\nComposed by WhiteLIT Beatz, Youngjin Ahn, Jaehyeong Na\nArranged by WhiteLIT Beatz, Youngjin Ahn\nProgramming by WhiteLIT Beatz\nBackground Vocals by Youngjin Ahn\nRap Arrangement by Youngjin Ahn\nRecorded by Youngjin Ahn\nDigital Editing by Jaehyeong Na at HYNG’s ROOM\nMixed by Jaehyeong Na at HYNG’s ROOM\nMastered by Jaehyeong Na at HYNG’s ROOM\n\nOriginal Title : Cream\nOriginal Writers : WhiteLIT Beatz \nOriginal Publishers : WhiteLIT Beatz\n*Purchased license for this beat from WhiteLIT Beatz.\n\n© 2022 Mingyu Chae, Jaehyeong Na, Youngjin Ahn, Jieun Lee.",
     "year": "2022",
     "created_at": "2026-03-19 03:49:13"
   },
@@ -347,7 +347,7 @@ export const projectsData: Project[] = [
     "video_url": "https://www.youtube.com/embed/SGKiWr0lq3Q",
     "thumbnail_url": "/014_경청하다.png",
     "role": "Producer, Camera Operator, Lighting, Boom Operator\n2D Clean & Beauty, Sound Design/Mixer, Storyboard Artist",
-    "credits": "Director, Writer | Gayun Kim, Yerin Park\nAssistant Director | Yuri Gu, Jeongmok Kim\nProducer | Jaehyeong Na\n\nCamera Operator | Eunbin Jang, Jaehyeong Na\nLighting, Boom Operator | Jeongmok Kim, Jaehyeong Na\n\nEditor, Color Grading | Yerin Park, Gayun Kim\n2D Clean & Beauty | Jaehyeong Na\nSound Design/Mixer | Jaehyeong Na\n\nScripter | Ye-rin Park, Yuri Gu\nStoryboard Artist | Jaehyeong Na\n\nProduction Accountant | Gayun Kim\n\nEquipment Support | Dongseo Media Center (Busan, Korea)\nLocation Support | Dongseo University Dept. Of Broadcasting & Media (Busan, Korea), Cafe Nut, Gayun Kim’s Residence, Airbnb\nProduction Support | Dongseo Media Center, Media Outlet (Moca), Dongseo University Linc 3.0 Business Group\n\nSpecial Thanks To | Sangwoo Lee, Junghwan Yoon, Eunae Baek, Bada Jeong, Minji Kim, Giyun Yang, Owner Of Cafe Nut\n\nCast\nYunha Park (Male Cafe Owner) | Yundam Go\nJunseok Lee (College Student) | Donggi Lee\nJonggil Kim (Old Man) | Taean Shin\n\n© 2021 Jaehyeong Na, Gayun Kim, Yerin Park, Yuri Gu, Eunbin Jang, Jeongmuk Kim.",
+    "credits": "Director, Writer | Gayun Kim, Yerin Park\nAssistant Director | Yuri Gu, Jeongmok Kim\nProducer | Jaehyeong Na\n\nCamera Operator | Eunbin Jang, Jaehyeong Na\nLighting, Boom Operator | Jeongmok Kim, Jaehyeong Na\n\nEditor, Color Grading | Yerin Park, Gayun Kim\n2D Clean & Beauty | Jaehyeong Na\nSound Design/Mixer | Jaehyeong Na\n\nScripter | Ye-rin Park, Yuri Gu\nStoryboard Artist | Jaehyeong Na\n\nProduction Accountant | Gayun Kim\n\nEquipment Support | Dongseo Media Center (Busan, Korea)\nLocation Support | Dongseo University Dept. Of Broadcasting & Media (Busan, Korea), Cafe Nut, Gayun Kim’s Residence, Airbnb\nProduction Support | Dongseo Media Center, Media Outlet (Moca), Dongseo University Linc 3.0 Business Group\n\nSpecial Thanks To | Sangwoo Lee, Junghwan Yoon, Eunae Baek, Bada Jeong, Minji Kim, Giyun Yang, Owner Of Cafe Nut\n\nCast\nYunha Park (Male Cafe Owner) | Yundam Go\nJunseok Lee (College Student) | Donggi Lee\nJonggil Kim (Old Man) | Taean Shin\n\n© 2021 Jaehyeong Na, Gayun Kim, Yerin Park, Yuri Gu, Eunbin Jang, Jeongmuk Kim. Manufactured by Dongseo University Dept. of Broadcasting & Media, Busan, Korea.",
     "year": "2021",
     "created_at": "2026-03-19 03:49:13"
   },
@@ -412,7 +412,7 @@ export const projectsData: Project[] = [
     "video_url": "https://www.youtube.com/embed/a437hI_ZSxc",
     "thumbnail_url": "/009_한옥의멋.png",
     "role": "Producer, Co-Director, Editor, Color Grading, Co-wrote, Mix & Mastering Engineer",
-    "credits": "Producer | Jaehyeong Na\nDirector | Youngjin Ahn, Jaehyeong Na\n\nCamera Operator | Jaehyeong Na\n\nEditor | Youngjin Ahn, Jaehyeong Na\nColor Grading | Jaehyeong Na\n\nLocation Support | Gimhae Hanok Experience Hall\n\nLyrics by Youngjin Ahn\nComposed by Casa Milla, Jaehyeong Na, Youngjin Ahn\nArranged by Casa Milla, Youngjin Ahn\nProgramming by Casa Milla\nBackground Vocals by Youngjin Ahn\nRap Arrangement by Youngjin Ahn, Jaehyeong Na\nRecorded by Youngjin Ahn\nDigital Editing by Jaehyeong Na at HYNG’s ROOM\nMixed by Jaehyeong Na at HYNG’s ROOM\nMastered by Jaehyeong Na at HYNG’s ROOM\n\n© 2021 auri (Architecture & Urban Research Institute). Manufactured by Youngjin Ahn, Jaehyeong Na.",
+    "credits": "Producer | Jaehyeong Na\nDirector | Youngjin Ahn, Jaehyeong Na\n\nCamera Operator | Jaehyeong Na\n\nEditor | Youngjin Ahn, Jaehyeong Na\nColor Grading | Jaehyeong Na\n\nLocation Support | Gimhae Hanok Experience Hall\n\nLyrics by Youngjin Ahn\nComposed by Casa Milla, Jaehyeong Na, Youngjin Ahn\nArranged by Casa Milla, Youngjin Ahn\nProgramming by Casa Milla\nBackground Vocals by Youngjin Ahn\nRap Arrangement by Youngjin Ahn, Jaehyeong Na\nRecorded by Youngjin Ahn\nDigital Editing by Jaehyeong Na at HYNG’s ROOM\nMixed by Jaehyeong Na at HYNG’s ROOM\nMastered by Jaehyeong Na at HYNG’s ROOM\n\nOriginal Title : Yng&Rich Type Exciting Trap Beat\nOriginal Writers : Casa Milla\nOriginal Publishers : Casa Milla\n*Purchased license for this beat from Casa Milla.\n\n© 2021 auri (Architecture & Urban Research Institute). Manufactured by Youngjin Ahn, Jaehyeong Na.",
     "year": "2021",
     "created_at": "2026-03-19 03:49:13"
   },
@@ -425,7 +425,7 @@ export const projectsData: Project[] = [
     "video_url": "https://www.youtube.com/embed/Cr4rtaENgIE",
     "thumbnail_url": "/008_제7회신한.png",
     "role": "Director, Editor",
-    "credits": "Written & Directed By | Jaehyeong Na\nCamera Operator | Youngjin Ahn\nEditor, 2D Beauty | Jaehyeong Na\n\nCast\nShinhan Bank Customer | Mingyu Kim\nShinhan Bank Employee, Narration | Jaehyeong Na\nExtras | Minjae Song, Youngjin An\n\n© 2021 Jaehyeong Na, Youngjin Ahn.",
+    "credits": "Written & Directed By | Jaehyeong Na\nCamera Operator | Youngjin Ahn\nEditor, 2D Beauty | Jaehyeong Na\n\nCast\nShinhan Bank Customer | Mingyu Kim\nShinhan Bank Employee, Narration | Jaehyeong Na\nExtras | Minjae Song, Youngjin Ahn\n\n© 2021 Jaehyeong Na, Youngjin Ahn.",
     "year": "2021",
     "created_at": "2026-03-19 03:49:13"
   },
@@ -451,7 +451,7 @@ export const projectsData: Project[] = [
     "video_url": "https://www.youtube.com/embed/AUM416ObjdA",
     "thumbnail_url": "/006_military.png",
     "role": "Recording Engineer, Mix & Mastering Engineer",
-    "credits": "Director | Youngjin Ahn\nDirector Of Photography | Dangchan Park\n\nLyrics by Youngjin Ahn\nComposed by Casa Milla\nArranged by Casa Milla, Youngjin Ahn\nProgramming by Casa Milla\nBackground Vocals by Youngjin Ahn\nRap Arrangement by Jaehyeong Na, Youngjin Ahn\nRecorded by Jaehyeong Na at Community Media Center, Busan, Korea\nDigital Editing by Jaehyeong Na at HYNG’s ROOM\nMixed by Jaehyeong Na at HYNG’s ROOM\nMastered by Jaehyeong Na at HYNG’s ROOM\n\n© 2021 Youngjin Ahn, Dangchan Park, Jaehyeong Na.",
+    "credits": "Director | Youngjin Ahn\nDirector Of Photography | Dangchan Park\n\nLyrics by Youngjin Ahn\nComposed by Casa Milla\nArranged by Casa Milla, Youngjin Ahn\nProgramming by Casa Milla\nBackground Vocals by Youngjin Ahn\nRap Arrangement by Jaehyeong Na, Youngjin Ahn\nRecorded by Jaehyeong Na at Community Media Center, Busan, Korea\nDigital Editing by Jaehyeong Na at HYNG’s ROOM\nMixed by Jaehyeong Na at HYNG’s ROOM\nMastered by Jaehyeong Na at HYNG’s ROOM\n\nOriginal Title : Exciting Synth Future Bass Pop Beat\nOriginal Writers : Casa Milla\nOriginal Publishers : Casa Milla\n*Purchased license for this beat from Casa Milla.\n\n© 2021 Youngjin Ahn, Dangchan Park, Jaehyeong Na.",
     "year": "2021",
     "created_at": "2026-03-19 03:49:13"
   },
@@ -464,7 +464,7 @@ export const projectsData: Project[] = [
     "video_url": "https://www.youtube.com/embed/",
     "thumbnail_url": "/005_개개풀어지다.jpg",
     "role": "Producer, Content Planning",
-    "credits": "Producer | Jaehyeong Na\nContent Planning | Jaehyeong Na, Sejun Park, Dangchan Park, Yejin Seo, Youngjin Ahn\nWritten & Directed By | Sejun Park\n\nDirector Of Photography | Dangchan Park\n\nEditor | Sejun Park, Dangchan Park\nColor Grading | Sejun Park, Dangchan Park\n\nStoryboard Artist | Yejin Seo\n\nCast\nMale Lead, Narration | Sejun Park\nFriend Of Male Lead 1 | Dangchan Park\nFriend Of Male Lead 2 | Jaehyeong Na\nLaughing Woman | Yejin Seo\nLaughing Man | Youngjin Ahn\n\nLocation Support | Dongseo University Dept. Of Broadcasting & Media (Busan, Korea)\n\n© 2021 Sejun Park, Jaehyeong Na, Dangchan Park, Yejin Seo, Youngjin Ahn.",
+    "credits": "Producer | Jaehyeong Na\nContent Planning | Jaehyeong Na, Sejun Park, Dangchan Park, Yejin Seo, Youngjin Ahn\nWritten & Directed by | Sejun Park\n\nDirector Of Photography | Dangchan Park\n\nEditor | Sejun Park, Dangchan Park\nColor Grading | Sejun Park, Dangchan Park\n\nStoryboard Artist | Yejin Seo\n\nCast\nMale Lead, Narration | Sejun Park\nFriend Of Male Lead 1 | Dangchan Park\nFriend Of Male Lead 2 | Jaehyeong Na\nLaughing Woman | Yejin Seo\nLaughing Man | Youngjin Ahn\n\nLocation Support | Dongseo University Dept. Of Broadcasting & Media (Busan, Korea)\n\n© 2021 Sejun Park, Jaehyeong Na, Dangchan Park, Yejin Seo, Youngjin Ahn.",
     "year": "2021",
     "created_at": "2026-03-19 03:49:13"
   },
@@ -477,7 +477,7 @@ export const projectsData: Project[] = [
     "video_url": "https://www.youtube.com/embed/scDpz5uCevc",
     "thumbnail_url": "/004_crush.png",
     "role": "Producer, Content Planning, Director, Editor",
-    "credits": "Starring | Jaehyeong Na, Sejun Park, Youngjin Ahn\n\nProducer | Jaehyeong Na\nContent Planning | Jaehyeong Na, Dangchan Park, Sejun Park, Youngjin Ahn, Yejin Seo\nWritten & Directed By | Jaehyeong Na\n\nDirector Of Photography | Dangchan Park\n\nEditor | Jaehyeong Na\nAdditional Editor | Dangchan Park\nColor Grading | Jaehyeong Na\n\nStoryboard Artist | Yejin Seo\n\n© 2021 Jaehyeong Na, Dangchan Park, Sejun Park, Youngjin Ahn, Yejin Seo.",
+    "credits": "Starring | Jaehyeong Na, Sejun Park, Youngjin Ahn\n\nProducer | Jaehyeong Na\nContent Planning | Jaehyeong Na, Dangchan Park, Sejun Park, Youngjin Ahn, Yejin Seo\nWritten & Directed by | Jaehyeong Na\n\nDirector Of Photography | Dangchan Park\n\nEditor | Jaehyeong Na\nAdditional Editor | Dangchan Park\nColor Grading | Jaehyeong Na\n\nStoryboard Artist | Yejin Seo\n\n© 2021 Jaehyeong Na, Dangchan Park, Sejun Park, Youngjin Ahn, Yejin Seo.",
     "year": "2021",
     "created_at": "2026-03-19 03:49:13"
   },
@@ -490,7 +490,7 @@ export const projectsData: Project[] = [
     "video_url": "https://www.youtube.com/embed/fkUugFLLl2Q",
     "thumbnail_url": "/003_빨간불을기다리며.jpg",
     "role": "Producer, Content Planning, Editor",
-    "credits": "Starring | Yejin Seo, Darok Han\n\nProducer | Jaehyeong Na\nContent Planning | Jaehyeong Na, Yejin Seo, Dangchan Park, Sejun Park, Youngjin Ahn\nWritten & Directed By | Yejin Seo\n\nDirector Of Photography | Dangchan Park\nCamera Crew | Sejun Park, Youngjin Ahn\n\nEditor | Jaehyeong Na\nColor Grading | Dangchan Park\n\nStoryboard Artist | Yejin Seo\n\n© 2021 Yejin Seo, Jaehyeong Na, Dangchan Park, Sejun Park, Youngjin Ahn.",
+    "credits": "Starring | Yejin Seo, Darok Han\n\nProducer | Jaehyeong Na\nContent Planning | Jaehyeong Na, Yejin Seo, Dangchan Park, Sejun Park, Youngjin Ahn\nWritten & Directed by | Yejin Seo\n\nDirector Of Photography | Dangchan Park\nCamera Crew | Sejun Park, Youngjin Ahn\n\nEditor | Jaehyeong Na\nColor Grading | Dangchan Park\n\nStoryboard Artist | Yejin Seo\n\n© 2021 Yejin Seo, Jaehyeong Na, Dangchan Park, Sejun Park, Youngjin Ahn.",
     "year": "2021",
     "created_at": "2026-03-19 03:49:13"
   },
@@ -503,7 +503,7 @@ export const projectsData: Project[] = [
     "video_url": "https://www.youtube.com/embed/0AIHgFiI8ow",
     "thumbnail_url": "/002_드립을치다.jpg",
     "role": "Producer, Content Planning, Color Grading",
-    "credits": "Producer | Jaehyeong Na\nContent Planning | Jaehyeong Na, Youngjin Ahn, Dangchan Park, Sejun Park, Yejin Seo\nWritten & Directed By | Youngjin Ahn\n\nDirector Of Photography | Dangchan Park\n\nEditor | Youngjin Ahn\nAdditional Editor | Sejun Park, Dangchan Park\nColor Grading | Jaehyeong Na\n\nStoryboard Artist | Yejin Seo\n\nLocation Support | Dongseo University Dept. of Broadcasting & Media (Busan, Korea), Hwa Odeng & Tteokbokki (Busan, Korea)\n\n© 2021 Youngjin Ahn, Jaehyeong Na, Dangchan Park, Sejun Park, Yejin Seo.",
+    "credits": "Producer | Jaehyeong Na\nContent Planning | Jaehyeong Na, Youngjin Ahn, Dangchan Park, Sejun Park, Yejin Seo\nWritten & Directed by | Youngjin Ahn\n\nDirector Of Photography | Dangchan Park\n\nEditor | Youngjin Ahn\nAdditional Editor | Sejun Park, Dangchan Park\nColor Grading | Jaehyeong Na\n\nStoryboard Artist | Yejin Seo\n\nLocation Support | Dongseo University Dept. of Broadcasting & Media (Busan, Korea), Hwa Odeng & Tteokbokki (Busan, Korea)\n\n© 2021 Youngjin Ahn, Jaehyeong Na, Dangchan Park, Sejun Park, Yejin Seo.",
     "year": "2021",
     "created_at": "2026-03-19 03:49:13"
   },
